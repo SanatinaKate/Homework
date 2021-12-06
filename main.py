@@ -7,7 +7,7 @@ with open("/VV/QAPython/Homework/HW_25Nov2021/files/books.csv", "r") as f:
     for row in reader:
         book = {}
         for key in ("Title", "Author", "Pages", "Genre"):
-            book[key.lower()] = int(row[key]) if key == "Pages" else row[key]
+            book[key.lower()] = row[key]
         books.append(book)
 books_len = len(books)
 
