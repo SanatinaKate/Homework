@@ -1,0 +1,10 @@
+{
+  "Name": "Test Name",
+  "Description": "Test Description",
+  "Meta Tag Title": "Test Meta Tag Title",
+  "Tags": "Test Tag1, Test Tag2",
+  "Model": "Test Model",
+  "Price": 100.0,
+  "Quantity": 10,
+  "Weight": 1.0
+}
